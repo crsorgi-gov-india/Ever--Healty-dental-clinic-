@@ -75,7 +75,7 @@ export default function Hero() {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
               <img 
-                src="/clinic.jpg" 
+                src="/clinic-photo.png" 
                 alt="Ever-Healthy Dental Care Clinic" 
                 className="w-full h-auto object-cover aspect-[4/3]"
                 referrerPolicy="no-referrer"

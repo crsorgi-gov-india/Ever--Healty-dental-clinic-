@@ -24,6 +24,18 @@ const images = [
   {
     src: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     alt: 'Dental Tools',
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    alt: 'Professional Care',
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    alt: 'Modern Technology',
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    alt: 'Expert Team',
   }
 ];
 
