@@ -12,15 +12,6 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const navLinks = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Services', href: '#services' },
-    { name: 'Gallery', href: '#gallery' },
-    { name: 'Testimonials', href: '#testimonials' },
-    { name: 'Contact', href: '#contact' },
-  ];
-
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -41,17 +32,8 @@ export default function Navbar() {
             </a>
           </div>
 
-          {/* Navigation (Always visible, looks like desktop on mobile) */}
-          <nav className="flex items-center space-x-5 sm:space-x-8 shrink-0">
-            {navLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                className="text-slate-600 hover:text-primary-600 font-medium transition-colors text-xs sm:text-sm uppercase tracking-wide whitespace-nowrap"
-              >
-                {link.name}
-              </a>
-            ))}
+          {/* Call Now Button */}
+          <div className="flex items-center">
             <a
               href="tel:+919877205554"
               className="flex items-center gap-2 bg-primary-600 text-white px-4 py-2 sm:px-5 sm:py-2.5 rounded-full font-medium hover:bg-primary-700 transition-colors shadow-sm hover:shadow-md whitespace-nowrap text-sm"
@@ -59,7 +41,7 @@ export default function Navbar() {
               <Phone className="w-4 h-4" />
               <span>Call Now</span>
             </a>
-          </nav>
+          </div>
         </div>
       </div>
     </header>

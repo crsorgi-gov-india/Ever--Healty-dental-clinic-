@@ -4,6 +4,7 @@
  */
 
 import Navbar from './components/Navbar';
+import BottomNav from './components/BottomNav';
 import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
@@ -19,7 +20,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-white font-sans text-slate-900 selection:bg-primary-100 selection:text-primary-900">
       <Navbar />
-      <main>
+      <main className="pb-16">
         <Hero />
         <About />
         <Services />
@@ -30,6 +31,7 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
+      <BottomNav />
       <FloatingWhatsApp />
     </div>
   );
